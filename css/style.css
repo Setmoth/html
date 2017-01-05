@@ -332,6 +332,7 @@ blockquote {
 	border-radius:50%;
 	margin:0 auto;
 }
+/*
 .circle-2::after {
     content: '';
     top: -70px;
@@ -340,6 +341,7 @@ blockquote {
     height: 200px;
     position: absolute;
 }
+*/
 .logo{
 	text-align:left;
 	padding: 117px 0 0 32px;
