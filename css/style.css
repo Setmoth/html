@@ -904,9 +904,11 @@ blockquote {
 
 /* ==========================
 8. Work Section
+911 - toegevoegd width---
 ============================= */
 .r-item{
 	position: relative;
+	width: 300px;
 	overflow: hidden;
 	margin-top:20px;
 }
