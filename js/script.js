@@ -159,6 +159,10 @@ $(document).ready(function(){
 	button.on('click', function(e){
         var dataslide = $(this).attr('data-slide');
 		if (typeof dataslide !== typeof undefined && dataslide !== false) {
+			// Close menu
+			if( $(e.target).is('a') ) {
+		        $('.navbar-collapse').collapse('hide');
+		    }	
 			window.location.hash = $(this).attr('name');
 			e.preventDefault();
 			goToByScroll(dataslide);

@@ -326,11 +326,22 @@ blockquote {
 }
 .circle-2{
 	width:300px;
+	position: relative;
 	height:300px;
 	background:#fff;
 	border-radius:50%;
 	margin:0 auto;
 }
+/*
+.circle-2::after {
+    content: '';
+    top: -70px;
+    width: 200px;
+    background: transparent url('../images/christmas-hat.png') no-repeat scroll center center / contain;
+    height: 200px;
+    position: absolute;
+}
+*/
 .logo{
 	text-align:left;
 	padding: 117px 0 0 32px;
@@ -893,9 +904,11 @@ blockquote {
 
 /* ==========================
 8. Work Section
+911 - toegevoegd width---
 ============================= */
 .r-item{
 	position: relative;
+	width: 300px;
 	overflow: hidden;
 	margin-top:20px;
 }
